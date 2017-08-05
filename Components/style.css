@@ -12,9 +12,12 @@
 }
 .text{
     color: white;
-    font-family: sans-serif;
-    letter-spacing: 0.1em;
+    font-family: 'Times New Roman', Times, serif;
+    /* letter-spacing: 0em; */
     font-size: 3vw;
+}
+h1,h2{
+    margin: 0;
 }
 .bar{
     background-color: #222;
