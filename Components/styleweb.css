@@ -22,7 +22,7 @@ body{
     transform:skew(-30deg,0deg);
   -ms-transform:skew(-30deg,0deg); 
    margin-left:45%;
-   margin-top:190px;
+   margin-top:180px;
    color: teal;
   }
   .links{
@@ -101,4 +101,7 @@ footer h2{
 }
 .skillimg{
     padding:0;
+}
+img{
+    width:100%;
 }
