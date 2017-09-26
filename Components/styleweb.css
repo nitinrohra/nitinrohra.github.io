@@ -1,0 +1,104 @@
+.first{
+    border: 2px solid rgba(199, 199, 199, 0.50);   
+    border-top:0;
+}
+body{
+    font-family: 'Advent Pro', sans-serif;
+    overflow-x:none;
+}
+.slant {
+    display:block;
+    float:left;
+    margin:0;
+    height:450px;
+    z-index:100;
+    padding:0 5%;
+    transform:skew(30deg,0deg);
+  -ms-transform:skew(30deg,0deg);
+  padding: 0;
+  background-color:rgb(255, 255, 255);
+  }
+  .oppslant {
+    transform:skew(-30deg,0deg);
+  -ms-transform:skew(-30deg,0deg); 
+   margin-left:45%;
+   margin-top:190px;
+   color: teal;
+  }
+  .links{
+      float: right;
+      font-size:18px;
+  }
+  .links a{
+      color: gray;
+  }
+  .links a:hover{
+      color: black;
+      text-decoration: none;
+  }
+  .parallax{
+    background-image: url("../images/contact.png");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height:100%;
+    opacity: 1;
+}
+.paralla{
+    background-image: url("../images/photo.jpg");
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    height:50%;
+    opacity: 1;
+}
+
+.banner
+{   
+    background-color: rgba(0, 0, 0,0);
+    margin: 50 0 0 0;
+    border: 2px solid gainsboro;
+}
+.banner h1{
+    margin:0;
+}
+footer{
+    background-color:black;
+    align-items: center;
+    padding:50px 10% 0 10%;
+    border-top: 1px solid gainsboro;
+}
+footer img{
+    width:45px;
+    margin:0;
+}
+footer h2{
+    margin: 0;
+    float: left;
+    color: white;
+    margin-top: 5px;
+}
+.about{
+    
+    background-color: rgba(255,255,255,0.05);
+    margin-right:30;
+    border: 2px solid black;
+    border-radius: 10px
+}
+.row{
+    margin:0;
+}
+.skillimg img{
+    height:400px; 
+    margin:0;
+    
+}
+.skillimg{
+    padding:0;
+}
