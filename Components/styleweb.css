@@ -43,12 +43,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     height:100%;
     opacity: 1;
 }
 .paralla{
-    background-image: url("../images/photo.jpg");
+    background-image: url("https://github.com/nitinrohra/nitinrohra.github.io/blob/master/Images/Photo.jpg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
@@ -104,4 +103,12 @@ footer h2{
 }
 img{
     width:100%;
+}
+.aslantexp{
+     transform:skew(30deg,0deg);
+    -ms-transform:skew(30deg,0deg);
+}
+.bslantexp{
+    transform:skew(-30deg,0deg);
+   -ms-transform:skew(-30deg,0deg);
 }
