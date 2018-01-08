@@ -47,7 +47,7 @@ body{
     opacity: 1;
 }
 .paralla{
-    background-image: url("https://github.com/nitinrohra/nitinrohra.github.io/blob/master/Images/Photo.jpg");
+    background-image: url("../images/Photo.jpg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
@@ -85,10 +85,18 @@ footer h2{
 }
 .about{
     
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.7);
     margin-right:30;
     border: 2px solid black;
-    border-radius: 10px
+    border-radius: 10px;
+    
+}
+.experience{
+    background-color: black;
+}
+.expimg img{
+    border-radius: 50px;
+    border:1px solid white;
 }
 .row{
     margin:0;
