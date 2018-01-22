@@ -37,7 +37,7 @@ body{
       text-decoration: none;
   }
   .parallax{
-    background-image: url("../Images/contacts.png");
+    background-image: url("../contacts.png");
     min-height: 600px; 
     background-attachment: fixed;
     background-position: center;
@@ -57,7 +57,7 @@ body{
     opacity: 1;
 }
 .paralla{
-    background-image: url("../Photo.jpg");
+    background-image: url("../Images/Photo.jpg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
