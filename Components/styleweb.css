@@ -47,7 +47,7 @@ body{
     opacity: 1;
 }
   .parall{
-    background-image: url("../Images/project.png");
+    background-image: url("../project.png");
     min-height: 600px; 
     background-attachment: fixed;
     background-position: center;
@@ -57,7 +57,7 @@ body{
     opacity: 1;
 }
 .paralla{
-    background-image: url("../Images/Photo.jpg");
+    background-image: url("../Photo.jpg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
